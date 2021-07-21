@@ -12,7 +12,7 @@ XXXXXXXX Add a timestamp in parentheses after the count, e.g. "4 (7:30) - "
 Hint:
 Google "get time of day javascript" -> https://tecadmin.net/get-current-date-time-javascript/
 
-* Render the entries in an unordered list instead of a paragraph. You will need to use .innerHTML instead of just .textContent. Render the count and timestamp in different HTML elements inside the <li> element. This will give you more freedom in how to style it. Can you improve the styling?
+XXXXXXXXXXX  Render the entries in an unordered list instead of a paragraph. You will need to use .innerHTML instead of just .textContent. Render the count and timestamp in different HTML elements inside the <li> element. This will give you more freedom in how to style it. Can you improve the styling?
 
 * Create an "entries" array that stores each entry as an object in the array. 
 The object should contains both the count and a timestamp:

@@ -16,8 +16,16 @@ function decrement() {
 function save() {
     let today = new Date();
     let time = today.getHours() + ":" + today.getMinutes()
-    let countStr = `${count} (${time})`
-    saveEl.innerHTML += `<li>${countStr}</li>`
+    let countStr =  []
+    countStr.push({countSum:count, timeStamp:time})
+    for( let i = 0;  i <countStr.length; i++) {
+        countStr.push({countSum:count, timeStamp:time})
+        saveEl.innerHTML += 
+        `
+        <li> ${countStr.countSum} ${countStr.timeStamp}</li>
+        `
+    }
+    console.log(countStr)
     countEl.innerHTML = 0
     count = 0
 }
